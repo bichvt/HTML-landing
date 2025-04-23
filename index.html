@@ -42,9 +42,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-G53RQ3JRE9');
-</script>         
+  gtag('config', 'G-G53RQ3JRE9',  {
+    'linker': {
+      'domains': ['news.like.jp', 'bichvt.github.io']
+    }
+  });
+</script>     
 
               
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
